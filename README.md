@@ -5,30 +5,19 @@
 
 ## About
 
-Laravel based web application for customer relationship management. 
+Laravel based multitenant (Admin and Superadmin login) web application for customer relationship management. 
 
-## Features
-
-- Multitenant (Admin and Superadmin login)
-- action
-- contact
-- setting
-- profile
-- counter
-- slider
-- service
-- social
-- message
-- testimonial
-- reference
-- team
 
 ####Installation
 
 `$ composer install or php composer.phar install`
+
 `$ php artisan key:generate`
+
 `$ php artisan migrate`
+
 `$ php artisan db:seed`
+
 `$ php artisan serve`
 
 # Images
